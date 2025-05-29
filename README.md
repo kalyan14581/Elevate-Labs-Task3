@@ -45,6 +45,15 @@ This repository contains the results of a basic vulnerability scan performed on 
 - [Web Server Version Detection](https://www.tenable.com/plugins/nessus/10107)  
 - [Strict Transport Security (STS) Detection](https://www.tenable.com/plugins/nessus/42822)
 
+## 📄 Report Summary
+
+The scan revealed the following key issues (examples below — replace with your actual results):
+
+- 🔴 **Critical**: Open SSH with weak encryption algorithms
+- 🔶 **High**: Outdated Apache server version with known CVEs
+- 🟡 **Medium**: SSL certificate is self-signed
+- 🟢 **Low**: ICMP timestamp response enabled
+
 > View full list in the PDF report below.
 
 [MyPC_1wqhey.pdf](https://github.com/user-attachments/files/20502032/MyPC_1wqhey.pdf)
